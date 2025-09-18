@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold
+}
+
+nav a:hover {
+
+  text-decoration: underline;
+
+}
+
+button.doar {
+  background-color: #ffcc00;
+  color: #005a8d;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+button.doar:hover {
+  background-color: #e6b800;
+}
+
+.banner {
+  background-color: #e0f2f1;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.banner h1{
+  font-size: 2.5rem;
+  color: #00796b;
+  margin-bottom: 20px;
+}
+nav > h1{ 
+    text-align: left;  
+    font-weight: bold; 
+
+} 
+ nav > p { 
+    text-align: left;  
+    font-weight: bold;  
+    
+}
+ p class
+header {
+  background-color: #005a8d;
+  color: white;
+  width: 100%;   
+  height:90%;        /* ocupa toda a largura */
+  padding: 20px 0;      /* remove margens externas */
+}
+ 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6
+}
+
+nav.menu {     
+background-color:rgb(226, 215, 198); 
+box-shadow: 0px 7px 7px; color: rgba(0, 0, 0, 0.404);
+text-align: end;  
+padding: 10px;   
+
+
+} 
+ 
+.btn {
+  display: inline-block;         /* faz parecer botão */
+  padding: 12px 25px;            /* tamanho do botão */
+  margin: 10px 5px;              /* espaço entre os botões */
+  background-color: #1663b1;     /* cor de fundo */
+  color: rgb(255, 255, 255);                  /* cor do texto */
+  text-decoration: none;         /* remove sublinhado do link */
+  font-weight: bold;
+  border-radius: 5px;            /* cantos arredondados */
+  transition: background 0.3s;   /* efeito suave ao passar o mouse */
+}
+
+.btn:hover {
+  background-color: #115293;  
+  border-radius: 5px;    /* cor ao passar o mouse */
+}
+ 
+#art1  {      
+    border-radius: 5px; 
+    background-color:rgb(161, 197, 224)  
+}   
+
+#art1 > h2 { 
+     margin-left: 10px;
+}
+
+
+#p1{
+    margin-left: 10px; 
+    text-align: left; 
+    padding-top: 10px; 
+ } 
+ 
+ #p2{
+    margin-left: 10px; 
+    text-align: left; 
+    padding-top: 10px; 
+ } 
+
+ #art2 { 
+
+ }
