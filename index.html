@@ -5,20 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Asilo de mendigos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     
 </head>
 
 <body> 
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
     <header>
         <nav class="menu">
             <h1> Asilo de Mendigos de Pelotas </h1>
             <p> Acolhimento digno para pessoas em situação de rua</p>
-            <a href="#inicio">Inicio</a>
-            <a href="#sobre">Sobre Nós</a>
-            <a href="#contato">Contato</a>  
-            <button class="doar">Doar</button>
+            <div class="menu-direita">
+              <article><a href="index.html">Inicio</a></article>
+              <article><a href="sobre.html">Sobre Nós</a></article>
+              <article><a href="contato.html">Contato</a> </article>
+              <a href="doar.html" class="doar">Doar</a>
+            </div>
+
         </nav>
     </header>
      
@@ -100,11 +107,29 @@
 
 <article id="art6" class="galeria">
   <h2>Galeria de Fotos</h2>
-  <div class="fotos">
-    <img src="foto1.jpg" alt="Distribuição de alimentos">
-    <img src="foto2.jpg" alt="Voluntários em ação">
-    <img src="foto3.jpg" alt="Evento comunitário">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+     
+        <div class="swiper-slide"><img src="pexels-rdne-6646992.jpg" alt="Distribuição de alimentos"></div>
+
+        <div class="swiper-slide"><img src="pexels-maksim-romashkin-11104870.jpg" alt="Voluntários em ação"></div>
+
+        <div class="swiper-slide"><img src="pexels-cottonbro-6590920.jpg" alt="Evento comunitário"></div>
+
+        <div class="swiper-slide"><img src="pexels-rdne-6646916.jpg" alt="Ajude humanitária"></div> 
+      
+    </div>
+    <div class="swiper-button-prev">
+       <svg width="24" height="24" fill="#ad1457" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+    </div>
+    <div class="swiper-button-next">
+       <svg width="24" height="24" fill="#ad1457" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg>
+    </div>
+
+
   </div>
+
+  
 </article>
 
         
