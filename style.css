@@ -41,9 +41,13 @@ nav.menu {
   background-color: transparent;
   box-shadow: none;
   text-align: left;
-  padding: 10px;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
 }
+
 
 nav.menu p {
   text-align: left;
@@ -57,6 +61,7 @@ nav.menu a {
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
+  
 }
 
 nav a:hover {
@@ -91,14 +96,15 @@ button.doar:hover {
 }
 
 #art1 {
-  background-color: rgb(161, 197, 224);
+   background-color: rgb(161, 197, 224);
   border-radius: 12px;
-  padding: 40px 20px;
+  padding: 40px 30px;
   margin: 30px auto;
-  max-width: 900px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  max-width: 1100px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
 }
+
 
 #art1 > h2 {
   margin-left: 10px;
@@ -107,12 +113,42 @@ button.doar:hover {
   margin-bottom: 15px;
 }
 
+.conteudo_banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.texto_banner {
+   flex: 1;
+  min-width: 280px;
+}
+
+.texto_banner h2 {
+  font-size: 2rem;
+  color: #004d40;
+  margin-bottom: 15px;
+}
+
+.imagem_banner {
+  flex: 0 0 280px;
+  text-align: center;
+}
+
+.imagem_banner img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
 #p1 {
-  margin-left: 10px;
-  text-align: left;
-  padding-top: 10px;
   font-size: 1rem;
-  color: 00796b;
+  color: #555;
+  margin-bottom: 20px;
 }
 
 #p2 {
@@ -124,15 +160,14 @@ button.doar:hover {
 }
 
 .btn {
-  display: inline-block;
-  padding: 12px 25px;
-  margin: 10px 5px;
   background-color: #1663b1;
-  color: #fff;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 5px;
-  transition: background 0.3s;
+  display: inline-block;
 }
 .btn:hover {
   background-color: #115293;
@@ -301,5 +336,20 @@ button.doar:hover {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+@media (max-width: 768px) {
+  .banner-conteudo {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
+  .banner-imagem {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .banner-imagem img {
+    max-width: 80%;
+  }
+}
 
