@@ -17,3 +17,13 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+function animateCount(id, end) {
+  let el = document.getElementById(id);
+  let count = 0;
+  let interval = setInterval(() => {
+    count++;
+    el.textContent = count + '+';
+    if (count >= end) clearInterval(interval);
+  }, 10);
+}
