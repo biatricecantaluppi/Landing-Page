@@ -782,13 +782,7 @@ footer {
   margin-bottom: 30px;
 }
 
-.footer-section h3 {
-  color: var(--destaque-footer);
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-  font-family: 'Inter', 'Segoe UI', sans-serif;
-  font-weight: 700;
-}
+
 
 .footer-section h4 {
   border-bottom: none;
