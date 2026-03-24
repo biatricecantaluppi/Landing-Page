@@ -1,25 +1,35 @@
 🌐 Landing Page – Asilo de Mendigos de Pelotas
-📌 Sobre o Projeto
+📌 Sobre o projeto
 
-Este projeto consiste no desenvolvimento de uma landing page responsiva voltada ao Asilo de Mendigos de Pelotas, com o objetivo de apresentar informações institucionais de forma clara, acessível e visualmente atrativa.
+Este projeto foi desenvolvido com o objetivo de criar uma landing page para o Asilo de Mendigos de Pelotas, apresentando suas principais informações de forma clara e acessível.
 
-A aplicação foi projetada para fortalecer a presença digital da instituição, permitindo que a comunidade conheça sua história, missão, serviços e formas de contribuição.
+A ideia central é facilitar o acesso da comunidade a conteúdos institucionais, como a história da instituição, sua missão, os serviços oferecidos e as formas de contribuição.
 
-Objetivos
-Divulgar informações institucionais de forma organizada
-Melhorar a visibilidade da instituição
-Facilitar o acesso a formas de doação e apoio
-Garantir uma experiência de navegação intuitiva
-Implementar responsividade para diferentes dispositivos
+🎯 Objetivo
 
-Tecnologias Utilizadas
+Desenvolver uma página simples, funcional e responsiva, que cumpra bem o papel de comunicação institucional e proporcione uma boa experiência de navegação em qualquer dispositivo.
 
-Com base na estrutura típica do seu projeto, aqui estão as tecnologias mais adequadas e atualizadas (incluindo o que você já usa + boas práticas modernas):
+🛠️ Tecnologias utilizadas
+HTML5
+CSS3
+JavaScript
+💻 Funcionalidades
+Estrutura de página institucional
+Layout responsivo
+Organização de conteúdo por seções
+Navegação simples e direta
+📱 Responsividade
 
-Frontend
-HTML5 – Estrutura semântica da aplicação
-CSS3 – Estilização e responsividade
-JavaScript – Interatividade e manipulação do DOM
-🎨 Estilização (boas práticas modernas)
-Flexbox & Grid Layout – Layout responsivo
-Mobile First Design – Prioridade para dispositivos móveis
+O projeto foi pensado para funcionar bem tanto em desktop quanto em dispositivos móveis, utilizando conceitos de layout responsivo.
+
+📂 Estrutura do projeto
+Landing-Page/
+│
+├── index.html
+├── style.css
+├── script.js
+└── assets/
+▶️ Como executar
+Clone o repositório:
+git clone https://github.com/biatricecantaluppi/Landing-Page.git
+Abra o arquivo index.html no navegador
